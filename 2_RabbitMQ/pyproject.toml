@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "MODULE-08/HW/P2_RabbitMQ"
+version = "0.1.0"
+description = "learning RabbitMQ"
+authors = ["Rishniak Valerii"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.5.0"
+mongoengine = "^0.27.0"
+pika = "^1.3.2"
+celery = "^5.3.4"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
